@@ -10,7 +10,7 @@ use yii\web\AssetBundle;
  */
 class AdminLteAsset extends AssetBundle
 {
-    public $sourcePath = '@vendor/adminlte/dist';
+    public $sourcePath = '@vendor/bower/adminlte/dist';
     public $css = [
         'plugins/jvectormap/jquery-jvectormap-1.2.2.css',
         'css/AdminLTE.min.css',
@@ -23,7 +23,6 @@ class AdminLteAsset extends AssetBundle
         'plugins/sparkline/jquery.sparkline.min.js',
         'plugins/jvectormap/jquery-jvectormap-1.2.2.min.js',
         'plugins/jvectormap/jquery-jvectormap-world-mill-en.js',
-        //'plugins/jvectormap/jquery-jvectormap-malang-raya.js',
         'plugins/slimScroll/jquery.slimscroll.min.js',
         'plugins/chartjs/Chart.min.js',
         //'js/pages/dashboard2.js',

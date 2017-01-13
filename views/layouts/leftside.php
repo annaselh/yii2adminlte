@@ -1,6 +1,6 @@
 <?php
 
-use yii\widgets\MenuLte;
+use adminlte\widgets\Menu;
 use yii\helpers\Html;
 use yii\helpers\Url;
 ?>
@@ -11,7 +11,7 @@ use yii\helpers\Url;
         <!-- Sidebar user panel -->
         <div class="user-panel">
             <div class="pull-left image">
-<?= Html::img('@web/img/user2-160x160.jpg', ['class' => 'img-circle', 'alt' => 'User Image']) ?>
+<?= Html::img('@vendor/bower/adminlte/img/user2-160x160.jpg', ['class' => 'img-circle', 'alt' => 'User Image']) ?>
             </div>
             <div class="pull-left info">
                 <p>Alexander Pierce</p>
@@ -30,7 +30,7 @@ use yii\helpers\Url;
         <!-- /.search form -->
         <!-- sidebar menu: : style can be found in sidebar.less -->
         <?=
-        MenuLte::widget(
+        Menu::widget(
                 [
                     'options' => ['class' => 'sidebar-menu'],
                     'items' => [
@@ -38,30 +38,38 @@ use yii\helpers\Url;
                         ['label' => 'Dashboard', 'icon' => 'fa fa-dashboard', 
                             'url' => ['/'], 'active' => $this->context->route == 'site/index'
                         ],
-                        /*[
-                            'label' => 'Blog',
-                            'icon' => 'fa fa-briefcase',
+                        [
+                            'label' => 'Master',
+                            'icon' => 'fa fa-database',
                             'url' => '#',
                             'items' => [
-                                ['label' => 'Posting', 
-                                    'icon' => 'fa fa-book', 
-                                    'url' => ['/debug'],],                                
-                                ['label' => 'Kategori', 
-                                    'icon' => 'fa fa-tasks', 
-                                    'url' => ['/debug'],],                                
-                                ['label' => 'Komentar', 
-                                    'icon' => 'fa fa-commenting', 
-                                    'url' => ['/debug'],],
-                                ['label' => 'Tautan', 
-                                    'icon' => 'fa fa-tag', 
-                                    'url' => ['/debug'],],
-                            ],
-                        ],*/
-                        ['label' => 'User', 'icon' => 'fa fa-users', 'url' => ['user/index'],],
+                                [
+                                    'label' => 'Master1',
+                                    'icon' => 'fa fa-database',
+                                    'url' => '?r=master1/',
+				    'active' => $this->context->route == 'master1/index'
+                                ],
+                                [
+                                    'label' => 'Master2',
+                                    'icon' => 'fa fa-database',
+                                    'url' => '?r=master2/',
+				    'active' => $this->context->route == 'master2/index'
+                                ]
+                            ]
+                        ],
+                        [
+                            'label' => 'Users',
+                            'icon' => 'fa fa-users',
+                            'url' => ['/user'],
+                            'active' => $this->context->route == 'user/index',
+                        ],
+                        ['label' => 'Gii', 'icon' => 'fa fa-file-code-o', 'url' => ['/gii'],],
+                        ['label' => 'Debug', 'icon' => 'fa fa-dashboard', 'url' => ['/debug'],],
                     ],
                 ]
         )
         ?>
+        
     </section>
     <!-- /.sidebar -->
 </aside>
