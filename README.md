@@ -18,7 +18,7 @@ Yii2adminlte ver. 2.0.1
 	    ...........
 	]
 	```
-3. Add $this->layout = 'login'; in the top of actionLogin function inside SiteController
+3. Add `$this->layout = 'login';` in the top of actionLogin function inside SiteController
 
 ### For yii2 advanced<br>
 1. Download and extract and copy vendor directory to your yii2 root project, let it merge.
@@ -34,4 +34,4 @@ Yii2adminlte ver. 2.0.1
 	    ...........
 	]
 	```
-4. Add $this->layout = 'login'; in the top of actionLogin function inside SiteController 
+4. Add `$this->layout = 'login';` in the top of actionLogin function inside SiteController 
