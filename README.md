@@ -3,6 +3,7 @@
 Yii2adminlte ver. 2.0.1
 
 <b>How to Install</b>
+
 For yii2 basic
 Donwload and extract files to your yii2 root project and let it merge the directories
 
