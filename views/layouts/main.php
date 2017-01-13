@@ -5,7 +5,7 @@
 
 use yii\helpers\Html;
 //use app\assets\AppAsset;
-use app\assets\AdminLteAsset;
+use backend\assets\AdminLteAsset;
 
 //AppAsset::register($this);
 $asset      = AdminLteAsset::register($this);

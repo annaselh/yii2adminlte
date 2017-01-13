@@ -31,7 +31,7 @@ use yii\helpers\Html;
                       <li><!-- start message -->
                         <a href="#">
                           <div class="pull-left">
-                            <?= Html::img('@vendor/bower/adminlte/img/user2-160x160.jpg', ['class' => 'img-circle', 'alt'=>'User Image']) ?>
+                            <?= Html::img('@web/img/user2-160x160.jpg', ['class' => 'img-circle', 'alt'=>'User Image']) ?>
                           </div>
                           <h4>
                             Support Team
@@ -43,7 +43,7 @@ use yii\helpers\Html;
                       <li>
                         <a href="#">
                           <div class="pull-left">
-                            <?= Html::img('@vendor/bower/adminlte/img/user3-128x128.jpg', ['class' => 'img-circle', 'alt'=>'User Image']) ?>
+                            <?= Html::img('@web/img/user3-128x128.jpg', ['class' => 'img-circle', 'alt'=>'User Image']) ?>
                           </div>
                           <h4>
                             AdminLTE Design Team
@@ -55,7 +55,7 @@ use yii\helpers\Html;
                       <li>
                         <a href="#">
                           <div class="pull-left">
-                            <?= Html::img('@vendor/bower/adminlte/img/user4-128x128.jpg', ['class' => 'img-circle', 'alt'=>'User Image']) ?>
+                            <?= Html::img('@web/img/user4-128x128.jpg', ['class' => 'img-circle', 'alt'=>'User Image']) ?>
                           </div>
                           <h4>
                             Developers
@@ -67,7 +67,7 @@ use yii\helpers\Html;
                       <li>
                         <a href="#">
                           <div class="pull-left">
-                            <?= Html::img('@vendor/bower/adminlte/img/user3-128x128.jpg', ['class' => 'img-circle', 'alt'=>'User Image']) ?>
+                            <?= Html::img('@web/img/user3-128x128.jpg', ['class' => 'img-circle', 'alt'=>'User Image']) ?>
                           </div>
                           <h4>
                             Sales Department
@@ -79,7 +79,7 @@ use yii\helpers\Html;
                       <li>
                         <a href="#">
                           <div class="pull-left">
-                            <?= Html::img('@vendor/bower/adminlte/img/user4-128x128.jpg', ['class' => 'img-circle', 'alt'=>'User Image']) ?>
+                            <?= Html::img('@web/img/user4-128x128.jpg', ['class' => 'img-circle', 'alt'=>'User Image']) ?>
                           </div>
                           <h4>
                             Reviewers
@@ -207,13 +207,13 @@ use yii\helpers\Html;
               <!-- User Account: style can be found in dropdown.less -->
               <li class="dropdown user user-menu">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-					<?= Html::img('@vendor/bower/adminlte/img/user2-160x160.jpg', ['class' => 'user-image', 'alt'=>'User Image']) ?>
+					<?= Html::img('@web/img/user2-160x160.jpg', ['class' => 'user-image', 'alt'=>'User Image']) ?>
                   <span class="hidden-xs">Alexander Pierce</span>
                 </a>
                 <ul class="dropdown-menu">
                   <!-- User image -->
                   <li class="user-header">
-                    <?= Html::img('@vendor/bower/adminlte/img/user2-160x160.jpg', ['class' => 'img-circle', 'alt'=>'User Image']) ?>
+                    <?= Html::img('@web/img/user2-160x160.jpg', ['class' => 'img-circle', 'alt'=>'User Image']) ?>
                     <p>
                       Alexander Pierce - Web Developer
                       <small>Member since Nov. 2012</small>
