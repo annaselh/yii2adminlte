@@ -38,9 +38,9 @@ Yii2adminlte ver. 2.0.2
 	```
 5. Add `$this->layout = 'login';` in the top of actionLogin function inside SiteController.
 6. In the login layout views\layouts\login.php, change 
-	``` use app\assets\AppAsset;``` to ```use backend\assets\AppAsset;``
+	``` use app\assets\AppAsset;``` to ```use backend\assets\AppAsset;```
 	and
-	``` use app\assets\AdminLteAsset;``` to ```use backend\assets\AdminLteAsset;``
+	``` use app\assets\AdminLteAsset;``` to ```use backend\assets\AdminLteAsset;```
 
 
 ## bugs Fixed
